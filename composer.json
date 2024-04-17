@@ -2,7 +2,7 @@
     "name": "kiiskominfokepri/bmkg-php",
     "description": "PHP wrapper for BMKG API",
     "type": "library",
-    "license": "GNU General Public License v3.0",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Doni Mustasar",

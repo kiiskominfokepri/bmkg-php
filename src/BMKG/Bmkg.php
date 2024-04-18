@@ -93,7 +93,7 @@ class BMKG
                                 "jam" => $temperature[$i]['@attributes']['h'] ?? "",
                                 "celcius" => $temperature[$i]['value'][0] ?? "",
                                 "fahrenheit" => $temperature[$i]['value'][1] ?? "",
-                                "cuaca" => $codeMapper[$weather[$i]['value']] ?? "",
+                                "cuaca" => $this->codeMapper[$weather[$i]['value']] ?? "",
                                 "icon" => $weather[$i]['value'] ?? "",
                                 "humidity" => $humidity[$i]['value'] ?? "",
                             );

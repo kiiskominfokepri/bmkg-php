@@ -1,10 +1,11 @@
 <?php
 
-require_once('src/BMKG/Bmkg.php');
+require_once('src/BMKG/BmkgNext.php');
 
-use BmkgSdk\BMKG;
+use BmkgSdk\BMKGNext;
 
-$bmkg = new BMKG();
-$bmkg->setDataPath("DigitalForecast-KepulauanRiau.xml");
+$bmkg = new BMKGNext();
+$bmkg->setParams(["adm1"=>"21"]);
 $result = $bmkg->getForecast();
-print_r($result);
+header('Content-Type: application/json');
+echo json_encode($result);

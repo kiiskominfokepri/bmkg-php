@@ -18,7 +18,8 @@
             "BmkgSdk\\": "src/BMKG/"
         },
         "files": [
-            "src/BMKG/Bmkg.php"
+            "src/BMKG/Bmkg.php",
+            "src/BMKG/BmkgNext.php"
         ]
     }
 }
